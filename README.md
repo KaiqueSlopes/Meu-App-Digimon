@@ -37,7 +37,7 @@ markdown
 
 1. **Clone o repositório**:  
    ```bash  
-   git clone 
+   git clone https://github.com/KaiqueSlopes/Meu-App-Digimon
 Navegue até o diretório do projeto:
 
 bash
