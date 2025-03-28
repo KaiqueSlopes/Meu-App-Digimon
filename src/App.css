@@ -1,0 +1,40 @@
+body {  
+  margin: 0;  
+  font-family: Arial, sans-serif;  
+}  
+
+.light {  
+  background-color: #ffffff;  
+  color: #000000;  
+}  
+
+.dark {  
+  background-color: #333333;  
+  color: #ffffff;  
+}  
+
+button {  
+  cursor: pointer;  
+}  
+
+@media (max-width: 768px) {  
+  button {  
+    width: 100%;  
+    margin: 5px 0;  
+  }  
+
+  input {  
+    width: 100%;  
+  }  
+}  
+
+@media (min-width: 1366px) and (max-width: 1920px) {  
+  button {  
+    width: auto;  
+  }  
+
+  .container {  
+    max-width: 1200px;  
+    margin: 0 auto;  
+  }  
+}  
